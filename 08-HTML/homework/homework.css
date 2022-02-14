@@ -1,0 +1,35 @@
+
+* { width: 700px;
+    margin: 10px auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;}
+
+body { background-image: URL("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgo4zMID0CcOHb7Xic3Wc3In2UvOgpkNCiyQ&usqp=CAU");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+h1 {color: rgb(250, 120, 142)}
+
+img {
+    width:400px;
+}
+
+#thirdDid {
+    width: 500px;
+    height: 600px;
+    background-color: rgba(223, 39, 110, 0.384);
+    padding: 50px;
+    border: 5px solid rgb(235, 8, 46);
+
+}
+
+#spanId { 
+    font-size: 18px;
+    margin: 50px;
+}
+
