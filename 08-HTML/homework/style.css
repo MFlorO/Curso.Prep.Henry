@@ -1,0 +1,47 @@
+
+
+.PRIMERA {
+    text-align: center;
+    background-color: rgb(105, 96, 96);
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+
+}
+
+.FOTO { background-color: black;
+    width: 300px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    
+    }
+
+.INFORMACIONPERSONAL { 
+    background-color: rgb(255, 219, 225);
+    display: table-caption;
+    width: 350px;
+    height:content;
+    
+    }
+
+.EDUCACION{
+    position:absolute ;
+    left: 390px;
+    top: 220px;
+
+}
+
+.titulos {
+    border-bottom: solid black 3px;
+}
+
+.EXPERIENCIALABORAL {
+    position:absolute ;
+    left: 390px;
+    top: 500px;
+}
+.tituloTabla { 
+    font-weight: bold;
+}
