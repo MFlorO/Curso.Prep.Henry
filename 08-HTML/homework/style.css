@@ -45,3 +45,8 @@
 .tituloTabla { 
     font-weight: bold;
 }
+
+.PLUS{
+    position:absolute;
+    top: 1300px;
+}
