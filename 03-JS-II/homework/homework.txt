@@ -1,0 +1,20 @@
+
+
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo 
+estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu 
+comprensión.
+
+* `for` : For es un tipo de Bucle que me permite repetir un código muchas veces, disminuyendo la cantidad del mismo
+          Esta compuesto por la palabra clave for + (Una variable de inicio +; una condicion que me determina cuantas 
+          veces se ejecutara el código; incremento para ir de valor en valor ){
+
+          };
+          
+          Este ya tiene predefinido los pasos, esto me garantiza que no se va a generar un ciclo sin fin.
+
+* `&&`, `||`, `!`: Son operadores logicos relacionados con los booleanos. El primero && signifca and/y, el segundo || or/o 
+                   y el tercero ! Not/no.
+
+                   Sirven para comparar dos variables. Podemos ver si ambas son verdaderas o si alguna de las dos lo es 
+                   o si ninguna es verdadera.
