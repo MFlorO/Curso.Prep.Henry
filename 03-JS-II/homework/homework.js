@@ -147,13 +147,13 @@ function operadoresLogicos(num1, num2, num3) {
   } else if (num1 < 0 || num2 < 0 || num3 < 0){
     return "Hay negativos";
   } else if (num3 > num1 && num3 > num2 ){
-    return (++num3);
+    return (++num3); //Tambien puede ser (num3 + 1)
   } else if (num1 > num2 && num1 > num3 ){ 
     //Como mas adelante paso el test de "Hay negativos" quiere decirque los num son positivo
-    return "Numero 1 es mayor y positivo";
+    return "Número 1 es mayor y positivo";
   } else { 
-    return false 
-  };
+    return false;
+  }
 }
 
 function esPrimo(numero) {
@@ -178,10 +178,15 @@ function esVerdadero(valor){
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
-  //Escribe tu código aquí   
-   
+  //Escribe tu código aquí  
+  var tabla = []; 
 
-   
+  for (var i=0 ;i<= 10; i++){
+    tabla.push(i*6)
+  } 
+  return tabla;
+
+     
 }
 
 function tieneTresDigitos(numero){
@@ -198,6 +203,13 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  var i = 0;
+  do{
+    numero= numero + 5; 
+ 
+    i++;
+  } while (i<8);
+  return (numero);
 }
 
 
